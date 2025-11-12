@@ -1,0 +1,43 @@
+# Ignore big data folders
+/data/videos/
+/data/yolo_dataset/
+
+# Ignore model files
+/models/*.pt
+/models/*.h5
+
+# Ignore output results
+/results/
+
+# Chaches and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.venv/
+
+
+# Config files for IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistem files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Package distribution folders
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*~
+*.tmp
+*.log
