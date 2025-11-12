@@ -1,7 +1,12 @@
 # Ignore big data folders
 /data/videos/*
+!/data/videos/.gitkeep
+
 /data/yolo_dataset/*
+!/data/yolo_dataset/.gitkeep
+
 /data/annotations/*
+!/data/annotations/.gitkeep
 
 # Ignore model files
 /models/*.pt
