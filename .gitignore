@@ -1,6 +1,7 @@
 # Ignore big data folders
-/data/videos/
-/data/yolo_dataset/
+/data/videos/*
+/data/yolo_dataset/*
+/data/annotations/*
 
 # Ignore model files
 /models/*.pt
