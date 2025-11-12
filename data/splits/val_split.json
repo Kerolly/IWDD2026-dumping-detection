@@ -1,0 +1,634 @@
+[
+    {
+        "id": "vid0142.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 5.0,
+        "duration_s": 9.36,
+        "fps": 8.333333333333334
+    },
+    {
+        "id": "vid0241.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 26.0,
+        "duration_s": 54.92,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0252.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 43.1,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0109.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 10.0,
+        "duration_s": 16.0,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0247.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 15.4,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0305.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 45.42042042042042,
+        "fps": 23.976
+    },
+    {
+        "id": "vid0448.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 16.349683016349683,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0442.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 7.0,
+        "duration_s": 9.300958333333332,
+        "fps": 23.976023976023978
+    },
+    {
+        "id": "vid0066.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 7.0,
+        "duration_s": 12.133333333333333,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0473.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 6.0,
+        "duration_s": 8.64,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0428.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 23.84,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0195.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 9.0,
+        "duration_s": 13.8138,
+        "fps": 29.97002997002997
+    },
+    {
+        "id": "vid0152.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 5.0,
+        "duration_s": 7.0,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0030.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 22.8,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0046.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 50.0,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0131.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 10.88345011678345,
+        "fps": 30.045619402962195
+    },
+    {
+        "id": "vid0376.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 3.0,
+        "duration_s": 4.4,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0246.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 4.0,
+        "duration_s": 35.72,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0400.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 3.0,
+        "duration_s": 5.76,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0405.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 29.996633333333335,
+        "fps": 29.97002997002997
+    },
+    {
+        "id": "vid0198.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 8.0,
+        "duration_s": 12.0,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0363.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 12.0,
+        "duration_s": 17.28,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0054.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 7.0,
+        "duration_s": 8.265333333333334,
+        "fps": 24.07646394579771
+    },
+    {
+        "id": "vid0259.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 2.0,
+        "duration_s": 5.6,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0082.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 4.0,
+        "duration_s": 11.211200000000002,
+        "fps": 9.99000999000999
+    },
+    {
+        "id": "vid0353.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 2.0,
+        "duration_s": 9.479999999999999,
+        "fps": 8.333333333333334
+    },
+    {
+        "id": "vid0309.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 44.32,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0029.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 40.583333333333336,
+        "fps": 12.0
+    },
+    {
+        "id": "vid0179.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 21.0,
+        "duration_s": 28.68,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0391.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 23.723723723723726,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0235.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 54.1,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0243.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 7.0,
+        "duration_s": 8.866666666666667,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0064.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 18.44,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0260.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 6.083333333333333,
+        "fps": 60.0
+    },
+    {
+        "id": "vid0475.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 15.0,
+        "duration_s": 16.68,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0490.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 58.04,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0231.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 29.52952952952953,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0146.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 31.0,
+        "duration_s": 62.24,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0105.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 41.4,
+        "fps": 15.0
+    },
+    {
+        "id": "vid0463.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 33.44,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0233.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 10.0,
+        "duration_s": 20.6,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0480.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 47.0,
+        "duration_s": 50.64,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0107.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 3.0,
+        "duration_s": 7.84,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0004.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 15.0,
+        "duration_s": 18.28,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0187.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 9.0,
+        "duration_s": 13.266666666666667,
+        "fps": 15.0
+    },
+    {
+        "id": "vid0382.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 3.0,
+        "duration_s": 19.366666666666667,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0302.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 13.0,
+        "duration_s": 16.4,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0148.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 10.0,
+        "duration_s": 29.84,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0285.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 7.933333333333334,
+        "fps": 15.0
+    },
+    {
+        "id": "vid0484.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 6.0,
+        "duration_s": 15.879000000000001,
+        "fps": 25.001574406448768
+    },
+    {
+        "id": "vid0454.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 9.066666666666666,
+        "fps": 14.779411764705882
+    },
+    {
+        "id": "vid0421.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 10.0,
+        "duration_s": 11.1,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0464.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 21.15448782115449,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0135.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 45.76,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0368.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 6.0,
+        "duration_s": 7.4657991324658,
+        "fps": 23.976
+    },
+    {
+        "id": "vid0016.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 6.0,
+        "duration_s": 21.771749999999997,
+        "fps": 23.976023976023978
+    },
+    {
+        "id": "vid0389.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 17.8,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0335.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 18.72,
+        "fps": 50.0
+    },
+    {
+        "id": "vid0158.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 19.233333333333334,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0147.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 13.0,
+        "duration_s": 21.333333333333332,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0061.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 2.0,
+        "duration_s": 20.28,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0020.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 2.0,
+        "duration_s": 2.9,
+        "fps": 10.0
+    },
+    {
+        "id": "vid0022.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 6.0,
+        "duration_s": 8.375032893005631,
+        "fps": 59.94006309148265
+    },
+    {
+        "id": "vid0287.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 21.0,
+        "duration_s": 52.152152152152155,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0383.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 3.0,
+        "duration_s": 8.566666666666666,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0058.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 11.0,
+        "duration_s": 18.0,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0358.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 8.0,
+        "duration_s": 15.056723390056725,
+        "fps": 23.976
+    },
+    {
+        "id": "vid0496.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 44.37771104437771,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0440.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 17.0,
+        "duration_s": 18.566666666666666,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0068.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 34.167500834167505,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0478.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 31.6,
+        "fps": 30.0
+    },
+    {
+        "id": "vid0096.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 5.0,
+        "duration_s": 7.490816272827746,
+        "fps": 59.94006309148265
+    },
+    {
+        "id": "vid0150.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 5.0,
+        "duration_s": 17.04,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0165.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 1.0,
+        "duration_s": 6.2,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0185.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 11.0,
+        "duration_s": 11.846,
+        "fps": 25.071754178625696
+    },
+    {
+        "id": "vid0481.mp4",
+        "dumping": 1,
+        "time_of_dumping": null,
+        "timestamp": 11.0,
+        "duration_s": 14.055722389055722,
+        "fps": 23.976
+    },
+    {
+        "id": "vid0015.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 44.0,
+        "fps": 25.0
+    },
+    {
+        "id": "vid0074.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 15.515515515515515,
+        "fps": 29.97
+    },
+    {
+        "id": "vid0414.mp4",
+        "dumping": 0,
+        "time_of_dumping": null,
+        "timestamp": null,
+        "duration_s": 28.395061728395063,
+        "fps": 29.97
+    }
+]
