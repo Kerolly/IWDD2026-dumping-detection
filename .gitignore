@@ -7,6 +7,8 @@
 
 /data/annotations/*
 !/data/annotations/.gitkeep
+/IWWD-Dumping-Detection-4
+/training
 
 # Ignore model files
 /models/*.pt
