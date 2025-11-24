@@ -1,6 +1,8 @@
 from ultralytics import YOLO
 import os
 
+os.environ["TORCH_DISTRIBUTED_DEBUG"] = "OFF"
+
 def test_inference():
     """
     Loads a fine-tuned YOLO model and runs inference on a sample video
@@ -8,7 +10,7 @@ def test_inference():
     """
     # Path to the fine-tuned model weights
     # Ensure 'best.pt' from training has been renamed/moved to this location
-    model_path = 'models/yolo_garbage.pt' 
+    model_path = 'models/YOLO_garbage_v2.pt' 
     
     if not os.path.exists(model_path):
         print(f"Error: Model weights not found at {model_path}")
@@ -28,10 +30,7 @@ def test_inference():
 
     print(f"Starting inference on: {source}")
 
-    # Run inference using the model
-    # save=True: specificies that the output video with bounding boxes should be saved to disk
-    # conf=0.25: sets the confidence threshold; detections below this are ignored
-    # project/name: defines the output directory structure (results/test_run)
+   
     try:
         model.predict(
             source=source, 
