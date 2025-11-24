@@ -1,64 +1,93 @@
-"""
-Script de bază pentru antrenament YOLOv8
-Modifică parametrii după nevoile tale
-"""
-
+import os
 from ultralytics import YOLO
+from roboflow import Roboflow
 import torch
 
-def main():
-    # Verifică disponibilitatea GPU
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    print(f"🚀 Folosesc device-ul: {device}")
+def train_yolo_pipeline():
+    """
+    Main pipeline to download dataset from Roboflow and fine-tune YOLOv8.
+    """
+    print("---  Starting Training Pipeline ---")
+
+    # 1. Check GPU availability
+    device = '0' if torch.cuda.is_available() else 'cpu'
+    print(f"Device selected: {device} ({torch.cuda.get_device_name(0) if device == '0' else 'CPU'})")
+
+    # 2. Download Dataset from Roboflow
+    try:
+        print("\n Connecting to Roboflow...")
+        rf = Roboflow(api_key="uz3y4w6e6aydR1HYe2gb")
+        project = rf.workspace("sudopi").project("iwwd-dumping-detection-ryvfu")
+        
+        # Check available versions
+        print("\n Checking available dataset versions...")
+        try:
+            version_info = project.get_version_information()
+            print(f"Available versions: {version_info}")
+        except:
+            print("Could not retrieve version information")
+        
+        # Try version 4, fallback to version 2 if it doesn't exist
+        try:
+            print("\n Attempting to download version 4...")
+            version = project.version(4)
+        except Exception as e:
+            print(f" Version 4 not found: {e}")
+            print("Falling back to version 2...")
+            version = project.version(2)
+        
+        dataset = version.download("yolov8")
+        print(f" Dataset downloaded/verified at: {dataset.location}")
+        
+    except Exception as e:
+        print(f" ERROR downloading dataset: {e}")
+        print("\n Troubleshooting tips:")
+        print("  1. Check your internet connection")
+        print("  2. Verify API key is valid")
+        print("  3. Confirm version 4 exists on Roboflow dashboard")
+        return
+
+    # 3. Load the Pre-trained Model
+    print("\n Loading YOLOv8m (Medium) model...")
+    model = YOLO('yolov8m.pt') 
+
+    # 4. Configure Paths
+    yaml_path = os.path.join(dataset.location, 'data.yaml')
+    print(f"\n Starting training using config: {yaml_path}")
     
-    # Încarcă modelul pre-antrenat
-    # Opțiuni: yolov8n.pt, yolov8s.pt, yolov8m.pt, yolov8l.pt, yolov8x.pt
-    model = YOLO('yolov8n.pt')
-    
-    print("📊 Încep antrenamentul...")
-    
-    # Configurare și antrenament
+    # 5. Start Training
     results = model.train(
         # Dataset
-        data='data.yaml',           # MODIFICĂ: calea către fișierul data.yaml
+        data=yaml_path,
         
-        # Parametri de bază
-        epochs=50,                 # număr de epoci
-        imgsz=640,                  # dimensiune imagine
-        batch=16,                   # mărime batch (scade dacă ai out of memory)
+        # Training Parameters
+        epochs=20,
+        imgsz=640,
+        batch=16,
         
-        # Salvare
-        name='my_yolo_model',       # numele experimentului
-        project='runs/detect',      # folder pentru rezultate
+        # Optimization
+        optimizer='Adam',
+        lr0=0.001,
+        patience=15,
+        
+        # Output & Saving
+        project='training/runs',
+        name='garbage_detect_v4',
         save=True,
-        save_period=10,             # salvează checkpoint la fiecare 10 epoci
         
-        # Optimizare
-        optimizer='Adam',           # SGD, Adam, AdamW
-        lr0=0.01,                   # learning rate inițial
-        weight_decay=0.0005,
-        patience=50,                # early stopping
-        
-        # Data Augmentation
+        # Augmentation
         augment=True,
-        hsv_h=0.015,
-        hsv_s=0.7,
-        hsv_v=0.4,
-        fliplr=0.5,                 # flip orizontal
+        fliplr=0.5,
         
-        # Hardware
+        # System
         device=device,
         workers=8,
-        
-        # Validare
-        val=True,
-        plots=True,
         verbose=True
     )
-    
-    print(f"\n✅ Antrenament finalizat!")
-    print(f"📁 Rezultate salvate în: {results.save_dir}")
-    print(f"🎯 Best model: {results.save_dir}/weights/best.pt")
+
+    print("\n Training Finished!")
+    print(f" Results saved in: {results.save_dir}")
+    print(f" Best model weights: {results.save_dir}/weights/best.pt")
 
 if __name__ == '__main__':
-    main()
+    train_yolo_pipeline()
