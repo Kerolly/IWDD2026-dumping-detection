@@ -2,6 +2,9 @@
 /data/videos/*
 !/data/videos/.gitkeep
 
+/data/val_videos/*
+/debug_output/
+
 /data/yolo_dataset/*
 !/data/yolo_dataset/.gitkeep
 
@@ -11,7 +14,6 @@
 /training
 
 # Ignore model files
-/models/*.pt
 /models/*.h5
 
 # Ignore output results
