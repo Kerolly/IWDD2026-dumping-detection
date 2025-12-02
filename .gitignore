@@ -27,6 +27,7 @@ __pycache__/
 
 # Virtual environment folders
 .venv/
+.venv13/
 
 
 # Config files for IDEs
