@@ -11,6 +11,8 @@
 /data/annotations/*
 !/data/annotations/.gitkeep
 /IWWD-Dumping-Detection-4
+/IWDD-dumping-detection-1
+/training_results
 
 
 # Ignore model files
