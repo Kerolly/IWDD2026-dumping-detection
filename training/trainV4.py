@@ -26,14 +26,14 @@ warnings.filterwarnings("ignore")
 # ============================================================================
 
 # --- Roboflow Configuration ---
-API_KEY = 'uz3y4w6e6aydR1HYe2gb'
+API_KEY = 'uz3y4w6e6aydR1HYe2gb' 
 WORKSPACE = 'sudopi'
 PROJECT = 'iwdd-dumping-detection-kpzg9'
 VERSION = 1 
 
 # --- Model Settings ---
 MODEL = 'yolov8m.pt'    # Medium model
-EPOCHS = 120            # Maximum epochs
+EPOCHS = 100            # Maximum epochs
 PATIENCE = 25           # Early stopping threshold
 
 # --- Hardware Settings ---
@@ -41,12 +41,16 @@ BATCH = 16              # Conservative batch size. Increase to 24/32 if VRAM all
 IMGSZ = 640             # Standard resolution
 WORKERS = 4             # Set to 0 if you encounter multiprocessing errors on Windows
 DEVICE = 0              # GPU ID
+CACHE = 'ram'
 
 # --- Optimization (Fine-Tuning Strategy) ---
 OPTIMIZER = 'AdamW'     # Optimized for convergence
 LR0 = 0.0005            # Low initial learning rate for stability
 LRF = 0.01              # Final learning rate decay
 COS_LR = True           # Cosine annealing
+WARMUP_EPOCHS = 3       
+WARMUP_MOMENTUM = 0.8
+WARMUP_BIAS_LR = 0.1
 
 # --- Regularization ---
 DROPOUT = 0.15          # Prevent overfitting
@@ -199,6 +203,7 @@ def train_model(dataset_path):
         device=DEVICE,
         workers=WORKERS,
         amp=True,           # Automatic Mixed Precision
+        cache='ram',
         
         # Optimization
         optimizer=OPTIMIZER,
@@ -222,7 +227,7 @@ def train_model(dataset_path):
         save=True,
         plots=True,
         verbose=True,
-        cache=False
+        
     )
     
     return run_name
