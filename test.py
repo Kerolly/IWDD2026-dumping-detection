@@ -8,7 +8,7 @@ from collections import defaultdict
 
 # --- CONFIGURATION ---
 # Path to trained YOLO model
-MODEL_PATH = 'models/yolo_garbage_colab_v2.pt' 
+MODEL_PATH = 'models/yolo_garbage_colab_v4.pt' 
 
 # --- DETECTION PARAMETERS ---
 CONF_THRESHOLD = 0.15        # Minimum confidence threshold for detections (15%)
