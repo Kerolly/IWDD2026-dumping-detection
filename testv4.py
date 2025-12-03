@@ -12,7 +12,7 @@ from tqdm import tqdm
 # ============================================================================
 
 # --- Paths ---
-DEFAULT_MODEL_PATH = 'models/yolo_garbage_colab_v4.pt'
+DEFAULT_MODEL_PATH = 'models/yolo_garbage_colab_v3.pt'
 # We need standard YOLO to detect "Agents" (People, Cars, Trucks)
 DEFAULT_AGENT_MODEL = 'yolov8n.pt'   
 
