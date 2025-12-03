@@ -28,7 +28,7 @@ warnings.filterwarnings("ignore")
 # --- Roboflow Configuration ---
 API_KEY = 'uz3y4w6e6aydR1HYe2gb' 
 WORKSPACE = 'sudopi'
-PROJECT = 'iwdd-dumping-detection-kpzg9'
+PROJECT = 'iwwd-dumping-detection-3-trjo9'
 VERSION = 1 
 
 # --- Model Settings ---

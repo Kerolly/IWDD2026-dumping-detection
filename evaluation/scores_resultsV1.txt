@@ -1,0 +1,24 @@
+
+==================================================
+FINAL RESULTS
+==================================================
+Folder: resultsV1
+Timestamp: 2025-12-03 00:02:33
+--------------------------------------------------
+Total Videos in Dataset:     79
+Evaluated Videos:            14
+Unevaluated (missing pred):  65
+--------------------------------------------------
+True Positives:  6 (correct)
+False Positives: 1 (false alarms / wrong time)
+False Negatives: 2 (missed events)
+True Negatives:  5 (correctly ignored)
+Unevaluated Positives: 39 (missing predictions)
+Unevaluated Negatives: 26 (missing predictions)
+--------------------------------------------------
+PRECISION:  0.8571
+RECALL:     0.7500
+F1-SCORE:   0.8000
+--------------------------------------------------
+METRICS BASED ON: 14/79 evaluated videos
+==================================================
