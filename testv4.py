@@ -17,17 +17,17 @@ DEFAULT_MODEL_PATH = 'models/yolo_garbage_colab_v3.pt'
 DEFAULT_AGENT_MODEL = 'yolov8n.pt'   
 
 # --- Detection Thresholds (Stricter to reduce FP) ---
-CONF_THRESHOLD = 0.35        # Increased from 0.20 to 0.35 (Trust only strong detections)
+CONF_THRESHOLD = 0.20        # Increased from 0.20 to 0.35 (Trust only strong detections)
 IOU_THRESHOLD = 0.5          
 
 # --- Temporal Logic (Slower to reduce FP) ---
 STATIONARY_DURATION = 2.5    # Object must be abandoned for 2.5s (Filters brief stops)
-MOVEMENT_TOLERANCE = 150     # Increased to 150px (Handles wind/camera shake better)
-START_CHECK_WINDOW = 1.0     # Time to classify pre-existing objects
+MOVEMENT_TOLERANCE = 55     # Increased to 150px (Handles wind/camera shake better)
+START_CHECK_WINDOW = 0.4    # Time to classify pre-existing objects
 
 # --- Interaction Logic (The "Smart" Brain) ---
-PROXIMITY_THRESHOLD = 250    # Pixels. If Agent is closer than this, timer is PAUSED.
-SPAWN_RADIUS = 350           # Pixels. New trash MUST spawn within this radius of an Agent.
+PROXIMITY_THRESHOLD = 160    # Pixels. If Agent is closer than this, timer is PAUSED.
+SPAWN_RADIUS = 700           # Pixels. New trash MUST spawn within this radius of an Agent.
                              # If it spawns far away, it's likely a "Ghost" or Error.
 
 # COCO Classes for Agents: 0:Person, 2:Car, 3:Motorcycle, 5:Bus, 7:Truck
