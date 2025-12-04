@@ -10,7 +10,7 @@ def test_inference():
     """
     # Path to the fine-tuned model weights
     # Ensure 'best.pt' from training has been renamed/moved to this location
-    model_path = 'models/yolo_garbage_colab_v4.pt' 
+    model_path = 'models/yolo_garbage_colab_v3.pt' 
     
     if not os.path.exists(model_path):
         print(f"Error: Model weights not found at {model_path}")
@@ -22,7 +22,7 @@ def test_inference():
 
     # Path to the input video source for testing
     # Replace with a valid video path from the validation set
-    source = 'data/videos/vid0071.mp4' 
+    source = 'data/videos/vid0022.mp4' 
 
     if not os.path.exists(source):
         print(f"Error: Source file not found at {source}")

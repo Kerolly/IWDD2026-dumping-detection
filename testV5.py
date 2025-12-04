@@ -8,7 +8,7 @@ from collections import defaultdict
 from tqdm import tqdm
 
 # ============================================================================
-#                               CONFIGURATION (V6)
+#                               CONFIGURATION (V5)
 # ============================================================================
 
 # --- Paths ---
@@ -39,7 +39,7 @@ AGENT_CLASSES = [0, 2, 3, 5, 7]
 # ============================================================================
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="IWDD 2026 Inference Engine V6")
+    parser = argparse.ArgumentParser(description="IWDD 2026 Inference Engine V5")
     parser.add_argument('--videos', type=str, required=True, help='Path to input videos')
     parser.add_argument('--results', type=str, required=True, help='Path to output results')
     parser.add_argument('--model', type=str, default=DEFAULT_MODEL_PATH, help='Path to custom garbage model')
