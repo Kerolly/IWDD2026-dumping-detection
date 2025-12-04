@@ -38,14 +38,14 @@ PATIENCE = 25           # Early stopping threshold
 
 # --- Hardware Settings ---
 BATCH = 16              # Conservative batch size. Increase to 24/32 if VRAM allows.
-IMGSZ = 640             # Standard resolution
+IMGSZ = 960             # Standard resolution
 WORKERS = 4             # Set to 0 if you encounter multiprocessing errors on Windows
 DEVICE = 0              # GPU ID
 CACHE = 'ram'
 
 # --- Optimization (Fine-Tuning Strategy) ---
 OPTIMIZER = 'AdamW'     # Optimized for convergence
-LR0 = 0.0005            # Low initial learning rate for stability
+LR0 = 0.001            # Low initial learning rate for stability
 LRF = 0.01              # Final learning rate decay
 COS_LR = True           # Cosine annealing
 WARMUP_EPOCHS = 3       
@@ -65,7 +65,7 @@ DEGREES = 15.0
 TRANSLATE = 0.1
 SCALE = 0.5
 MOSAIC = 1.0
-MIXUP = 0.15
+MIXUP = 0.05
 COPY_PASTE = 0.0
 
 # --- Output Paths ---
