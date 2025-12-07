@@ -7,7 +7,7 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 # Directory containing prediction text files (.txt)
-PREDICTIONS_DIR = 'resultsV8_H'
+PREDICTIONS_DIR = 'resultsVT9.4_O2'
 
 # Directory containing ground-truth annotation files (.json)
 GROUND_TRUTH_DIR = 'data/annotations'
